@@ -1,14 +1,8 @@
-# Build Task for VSCode:
-
-# Run .ts-files with node.js
-
----
+# Build Task for VSCode: Run .ts-files with node.js
 
 ## What is this?
 
 The tasks.json-file defines a build task for the famous text-editor Visual Studio Code. It's goal is to transcript the TypeScript-file (.ts) you are currently editing to a JavaScript-file (.js) and to run that outcoming js-file with node.js in your default shell (the shell you defined as default in Visual Studio Code)
-
----
 
 ## Dependencies
 
@@ -26,7 +20,7 @@ npm install -g typescript
 
 If that command doesn't work on your favorite Linux-distro, you may have to run it with sudo.
 
----
+
 
 ## Usage
 
